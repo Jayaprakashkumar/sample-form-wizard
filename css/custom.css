@@ -1,0 +1,38 @@
+.my-datepicker .start-date,  .end-date{
+    width: 45%;
+    float: left;
+}
+.my-datepicker .start-date{
+    margin-right: 2.2em;
+}
+
+.form-control{
+    padding-left: 40px;
+}
+.pb-08{
+    padding-bottom: 0.8em;
+}
+.font-101{
+    font-size: 1.1em;
+}
+.mr-4{
+    margin-right: 4em !important;
+}
+.checkbox-benefits{
+    font-size: 1.3em !important;
+    color: grey !important;
+    padding-top: 10px;
+}
+.fontColor{
+    color: grey !important;
+}
+.applicable-markets-container label{
+    width: 100%;
+}
+.section4 .form-row{
+    margin-bottom: 12px !important;
+}
+
+/* .showDiv{
+   display: none; 
+} */

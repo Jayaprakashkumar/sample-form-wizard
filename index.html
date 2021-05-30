@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Form Wizard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="colorlib.com">
+
+    <!-- MATERIAL DESIGN ICONIC FONT -->
+    <link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.css">
+
+    <!-- DATE-PICKER -->
+    <link rel="stylesheet" href="vendor/date-picker/css/datepicker.min.css">
+
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <form action="" id="wizard">
+            <!-- SECTION 1 -->
+            <h4></h4>
+            <section>
+                <div class="form-row">
+                    <div class="form-col">
+                        <label for="">
+                            Partner:
+                        </label>
+                        <div class="form-holder">
+                            <select name="" id="" class="form-control">
+                                <option value="united states" class="option">Partner 1</option>
+                                <option value="united kingdom" class="option">Partner 2</option>
+                                <option value="viet nam" class="option">Partner 3</option>
+                            </select>
+                            <i class="zmdi zmdi-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="form-col">
+                        <label for="">
+                            Promotion:
+                        </label>
+                        <div class="form-holder">
+                            <select name="" id="" class="form-control">
+                                <option value="united states" class="option">Promotion 1</option>
+                                <option value="united kingdom" class="option">Promotion 2</option>
+                                <option value="viet nam" class="option">Promotion 3</option>
+                            </select>
+                            <i class="zmdi zmdi-chevron-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-col my-datepicker">
+                        <div class="start-date">
+                            <label for="">
+                                Start Date
+                            </label>
+                            <div class="form-holder">
+                                <i class="zmdi zmdi-calendar"></i>
+                                <input type="text" class="form-control datepicker-here" data-language='en'
+                                    data-date-format="dd - mm - yyyy" id="dp1">
+                            </div>
+                        </div>
+                        <div class="end-date">
+                            <label for="">
+                                End Date
+                            </label>
+                            <div class="form-holder">
+                                <i class="zmdi zmdi-calendar"></i>
+                                <input type="text" class="form-control datepicker-here" data-language='en'
+                                    data-date-format="dd - mm - yyyy" id="dp2">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-col">
+                        <label for="" class="pb-08">
+                            Prospect User Enabled?
+                        </label>
+                        <div class="form-holder">
+                            <label class="radio-inline zmdi pull-left">
+                                <input type="radio" name="prospectUser">Yes
+                            </label>
+                            <label class="radio-inline zmdi pull-left">
+                                <input type="radio" name="prospectUser">No
+                            </label>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-col">
+                        <label for="">
+                            User Creation:
+                        </label>
+                        <div class="form-holder">
+                            <select name="" id="" class="form-control">
+                                <option value="united states" class="option">OPEN</option>
+                                <option value="united kingdom" class="option">CM15</option>
+                                <option value="viet nam" class="option">Customer</option>
+                            </select>
+                            <i class="zmdi zmdi-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="form-col">
+                        <label for="">
+                            Account Restriction:
+                        </label>
+                        <div class="form-holder">
+                            <select name="" id="registrationSelect" class="form-control">
+                                <option value="Valid Cards Only" class="option">Valid Cards Only</option>
+                                <option value="Premium Cards Only" class="option">Premium Cards Only</option>
+                            </select>
+                            <i class="zmdi zmdi-chevron-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION 2 -->
+            <h4></h4>
+            <section>
+               
+                <div class="form-row">
+                    
+                    <div class="form-col applicable-markets-container">
+                        <h5>Applicable Markets:</h5>
+                        <div class="form-holder">
+                            <label class="checkbox-inline zmdi pull-left mr-4 checkbox-benefits">
+                                <input type="checkbox" name="DPANAllowedforEnrollment">All Markets
+                            </label>
+                        </div>
+                        <div class="form-holder">
+                            <label class="checkbox-inline zmdi pull-left mr-4 checkbox-benefits">
+                                <input type="checkbox" name="DPANAllowedforEnrollment">United States of America
+                            </label>
+                        </div>
+                        <div class="form-holder">
+                            <label class="checkbox-inline zmdi pull-left mr-4 checkbox-benefits">
+                                <input type="checkbox" name="DPANAllowedforEnrollment">Canada
+                            </label>
+                        </div>
+                        <div class="form-holder">
+                            <label class="checkbox-inline zmdi pull-left mr-4 checkbox-benefits">
+                                <input type="checkbox" name="DPANAllowedforEnrollment">United kingdom
+                            </label>
+                        </div>
+                        <div class="form-holder">
+                            <label class="checkbox-inline zmdi pull-left mr-4 checkbox-benefits">
+                                <input type="checkbox" name="DPANAllowedforEnrollment">India
+                            </label>
+                        </div>
+                        <div class="form-holder">
+                            <label class="checkbox-inline zmdi pull-left mr-4 checkbox-benefits">
+                                <input type="checkbox" name="DPANAllowedforEnrollment">North America
+                            </label>
+                        </div>
+                        <div class="form-holder">
+                            <label class="checkbox-inline zmdi pull-left mr-4 checkbox-benefits">
+                                <input type="checkbox" name="DPANAllowedforEnrollment">South America
+                            </label>
+                        </div>
+                        <div class="form-holder">
+                            <label class="checkbox-inline zmdi pull-left mr-4 checkbox-benefits">
+                                <input type="checkbox" name="DPANAllowedforEnrollment">Europe
+                            </label>
+                        </div>
+                        <div class="form-holder">
+                            <label class="checkbox-inline zmdi pull-left mr-4 checkbox-benefits">
+                                <input type="checkbox" name="DPANAllowedforEnrollment">APAC
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-col showDiv">
+                        <h5>Applicable Tiers:</h5>
+                        <div class="form-holder">
+                            <label class="checkbox-inline zmdi pull-left mr-4 checkbox-benefits">
+                                <input type="checkbox" name="DPANAllowedforEnrollment">Tier 1 (Default - Eligible)
+                            </label>
+                        </div>
+                        <div class="form-holder">
+                            <label class="checkbox-inline zmdi pull-left mr-4 checkbox-benefits">
+                                <input type="checkbox" name="DPANAllowedforEnrollment">Tier P (Default - Prospects)
+                            </label>
+                        </div>
+                        <div class="form-holder">
+                            <label class="checkbox-inline zmdi pull-left mr-4 checkbox-benefits">
+                                <input type="checkbox" name="DPANAllowedforEnrollment">Tier 0 (Default - In Eligible)
+                            </label>
+                        </div>
+                        <div class="form-holder">
+                            <label class="checkbox-inline zmdi pull-left mr-4 checkbox-benefits">
+                                <input type="checkbox" name="DPANAllowedforEnrollment">000 (IACode - Non Premium)
+                            </label>
+                        </div>
+                        <div class="form-holder">
+                            <label class="checkbox-inline zmdi pull-left mr-4 checkbox-benefits">
+                                <input type="checkbox" name="DPANAllowedforEnrollment">111 (IACode - Gold)
+                            </label>
+                        </div>
+                        <div class="form-holder">
+                            <label class="checkbox-inline zmdi pull-left mr-4 checkbox-benefits">
+                                <input type="checkbox" name="DPANAllowedforEnrollment">222 (IACode - Platinum)
+                            </label>
+                        </div>
+                        <div class="form-holder">
+                            <label class="checkbox-inline zmdi pull-left mr-4 checkbox-benefits">
+                                <input type="checkbox" name="DPANAllowedforEnrollment">333 (IACode - Centurion)
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- SECTION 3 -->
+            <h4></h4>
+            <section>
+                <div class="form-row">
+                    <div class="form-col">
+                        <label for="" class="pb-08 font-101">
+                            DPAN Allowed for Enrollment?
+                        </label>
+                        <div class="form-holder">
+                            <label class="radio-inline zmdi pull-left mr-4">
+                                <input type="radio" name="DPANAllowedforEnrollment">Yes
+                            </label>
+                            <label class="radio-inline zmdi pull-left">
+                                <input type="radio" name="DPANAllowedforEnrollment">No
+                            </label>
+                        </div>
+
+                    </div>
+                    <div class="form-col">
+                        <label for="" class="pb-08 font-101">
+                            Gift Cards Allowed for Enrollment?
+                        </label>
+                        <div class="form-holder">
+                            <label class="radio-inline zmdi pull-left mr-4">
+                                <input type="radio" name="GiftCardsAllowed">Yes
+                            </label>
+                            <label class="radio-inline zmdi pull-left">
+                                <input type="radio" name="GiftCardsAllowed">No
+                            </label>
+                        </div>
+
+                    </div>
+                </div>
+               
+                <div class="form-row">
+                    <div class="form-col">
+                        <label for="" class="pb-08 font-101">
+                            Send Account Linking Notification:
+                        </label>
+                        <div class="form-holder">
+                            <label class="radio-inline zmdi pull-left mr-4">
+                                <input type="radio" name="SendAccountLinkingNotification">Yes
+                            </label>
+                            <label class="radio-inline zmdi pull-left">
+                                <input type="radio" name="SendAccountLinkingNotification">No
+                            </label>
+                        </div>
+
+                    </div>
+                    <div class="form-col">
+                        <label for="">
+                            Linking GCS Email Template ID:
+                        </label>
+                        <div class="form-holder">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                </div>
+              
+                <div class="form-row">
+                    <div class="form-col">
+                        <label for="" class="pb-08 font-101">
+                            Account Delinking Allowed:
+                        </label>
+                        <div class="form-holder">
+                            <label class="radio-inline zmdi pull-left mr-4">
+                                <input type="radio" name="AccountDelinking">Yes
+                            </label>
+                            <label class="radio-inline zmdi pull-left">
+                                <input type="radio" name="AccountDelinking">No
+                            </label>
+                        </div>
+
+                    </div>
+                    <div class="form-col">
+                        <label for="" class="pb-08 font-101">
+                            Send Account Delinking Notification:
+                        </label>
+                        <div class="form-holder">
+                            <label class="radio-inline zmdi pull-left mr-4">
+                                <input type="radio" name="SendAccountDelinking">Yes
+                            </label>
+                            <label class="radio-inline zmdi pull-left">
+                                <input type="radio" name="SendAccountDelinking">No
+                            </label>
+                        </div>
+
+                    </div>
+                </div>
+                 
+                <div class="form-row">
+                    <div class="">
+                        <label for="">
+                            Dlinking GCS Email Template ID:
+                        </label>
+                        <div class="form-holder">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- SECTION 4 -->
+            <h4></h4>
+            <section class="section4">
+                <h5>Benefits:</h5>
+                <div class="form-row">
+                    <div class="form-col">
+                        <div class="form-holder">
+                            <label class="checkbox-inline zmdi pull-left mr-4 checkbox-benefits">
+                                <input type="checkbox" name="DPANAllowedforEnrollment">Benefits 1
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-col">
+                        <div class="form-holder">
+                            <select name="" id="" class="form-control">
+                                <option value="united states" class="option">Defualt</option>
+                                <option value="united kingdom" class="option">Custom</option>
+                                <option value="viet nam" class="option">Prospect</option>
+                            </select>
+                            <i class="zmdi zmdi-chevron-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-col">
+                        <div class="form-holder">
+                            <label class="checkbox-inline zmdi pull-left mr-4 checkbox-benefits">
+                                <input type="checkbox" name="DPANAllowedforEnrollment">Benefits 2
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-col">
+                        <div class="form-holder">
+                            <select name="" id="" class="form-control">
+                                <option value="united states" class="option">Defualt</option>
+                                <option value="united kingdom" class="option">Custom</option>
+                                <option value="viet nam" class="option">Prospect</option>
+                            </select>
+                            <i class="zmdi zmdi-chevron-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-col">
+                        <div class="form-holder">
+                            <label class="checkbox-inline zmdi pull-left mr-4 checkbox-benefits">
+                                <input type="checkbox" name="DPANAllowedforEnrollment">Benefits 3
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-col">
+                        <div class="form-holder">
+                            <select name="" id="" class="form-control">
+                                <option value="united states" class="option">Defualt</option>
+                                <option value="united kingdom" class="option">Custom</option>
+                                <option value="viet nam" class="option">Prospect</option>
+                            </select>
+                            <i class="zmdi zmdi-chevron-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-col">
+                        <div class="form-holder">
+                            <label class="checkbox-inline zmdi pull-left mr-4 checkbox-benefits">
+                                <input type="checkbox" name="DPANAllowedforEnrollment">Benefits 4
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-col">
+                        <div class="form-holder">
+                            <select name="" id="" class="form-control">
+                                <option value="united states" class="option">Defualt</option>
+                                <option value="united kingdom" class="option">Custom</option>
+                                <option value="viet nam" class="option">Prospect</option>
+                            </select>
+                            <i class="zmdi zmdi-chevron-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-col">
+                        <div class="form-holder">
+                            <label class="checkbox-inline zmdi pull-left mr-4 checkbox-benefits">
+                                <input type="checkbox" name="DPANAllowedforEnrollment">Benefits 5
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-col">
+                        <div class="form-holder">
+                            <select name="" id="" class="form-control">
+                                <option value="united states" class="option">Defualt</option>
+                                <option value="united kingdom" class="option">Custom</option>
+                                <option value="viet nam" class="option">Prospect</option>
+                            </select>
+                            <i class="zmdi zmdi-chevron-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-col">
+                        <div class="form-holder">
+                            <label class="checkbox-inline zmdi pull-left mr-4 checkbox-benefits">
+                                <input type="checkbox" name="DPANAllowedforEnrollment">Benefits 6
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-col">
+                        <div class="form-holder">
+                            <select name="" id="" class="form-control">
+                                <option value="united states" class="option">Defualt</option>
+                                <option value="united kingdom" class="option">Custom</option>
+                                <option value="viet nam" class="option">Prospect</option>
+                            </select>
+                            <i class="zmdi zmdi-chevron-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-col">
+                        <label for="" class="pb-08 font-101 fontColor">
+                            Wrong Entry Retries Allowed:
+                        </label>
+                        <div class="form-holder">
+                            <label class="radio-inline zmdi pull-left mr-4">
+                                <input type="radio" name="WrongEntryRetries">Yes
+                            </label>
+                            <label class="radio-inline zmdi pull-left">
+                                <input type="radio" name="WrongEntryRetries">No
+                            </label>
+                        </div>
+
+
+                    </div>
+
+                    <div class="form-col">
+                        <label for="" class="fontColor">
+                            No. of Retries Allowed:
+                        </label>
+                        <div class="form-holder">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+        </form>
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+
+    <!-- JQUERY STEP -->
+    <script src="js/jquery.steps.js"></script>
+
+    <!-- DATE-PICKER -->
+    <script src="vendor/date-picker/js/datepicker.js"></script>
+    <script src="vendor/date-picker/js/datepicker.en.js"></script>
+
+    <script src="js/main.js"></script>
+
+    <!-- Template created and distributed by Colorlib -->
+</body>
+
+</html>
